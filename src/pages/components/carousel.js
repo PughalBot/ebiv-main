@@ -5,19 +5,22 @@ import { RxDotFilled } from 'react-icons/rx';
 export default function Carousel() {
   const slides = [
     {
-      url: 'https://cdn.discordapp.com/attachments/981618787491127306/1078748875063570532/c1.png',
+      url: 'https://cdn.discordapp.com/attachments/981618787491127306/1088448785442668644/error-404-12.jpg',
     },
     {
-      url: 'https://cdn.discordapp.com/attachments/750752324712136828/1078909357984591872/pexels-photo-1884581.png',
+      url: 'https://cdn.discordapp.com/attachments/981618787491127306/1088448785690136656/x1sr1lob3ai41.jpg',
     },
     {
-      url: 'https://cdn.discordapp.com/attachments/750752324712136828/1078910045556842496/pexels-photo-996329.png',
+      url: 'https://cdn.discordapp.com/attachments/981618787491127306/1088448785006465054/70369302-error-wallpapers.jpeg',
     },
     {
-      url: 'https://cdn.discordapp.com/attachments/750752324712136828/1078910290470637638/pexels-photo-3755706.png',
+      url: 'https://cdn.discordapp.com/attachments/981618787491127306/1088448784800940113/1a97eb3af4813ac9f856b11fd19f7c76.jpg',
     },
     {
       url: 'https://cdn.discordapp.com/attachments/750752324712136828/1078910557727502346/pexels-photo-3839432.png',
+    },
+    {
+      url: 'https://cdn.discordapp.com/attachments/750752324712136828/1078910290470637638/pexels-photo-3755706.png',
     },
   ];
 
