@@ -5,7 +5,8 @@ import Link from "next/link"
 export default function NavBar() {
   return (
     <>
-    <header className="bg-[#FFEFFF] text-white font-algeria px-8 fixed z-20 w-full">
+    <div className="flex justify-center">
+    <header className="bg-[url(https://cdn.discordapp.com/attachments/981618787491127306/1088401159821213717/bg.png)] bg-blend-normal bg-blur-lg mt-2 flex text-white font-algeria px-8 fixed z-20 w-11/12 rounded-full ">
         <div className="flex justify-center items-center w-full">
         <Link href="/">
           <Image src="/logo.png" width={50} height={50}/>
@@ -15,7 +16,6 @@ export default function NavBar() {
               <Link href="/productlist" className="mr-8">MEN</Link>
               <Link href="/productlist" className="mr-8">WOMEN</Link>
               <Link href="/productlist" className="mr-8">KIDS</Link>
-              <Link href="/productlist" className="mr-8">ACCESSORIES</Link>
               <Link href="/productlist" className="mr-8">CATEGORIES</Link>
             </nav>
         </div>
@@ -29,6 +29,7 @@ export default function NavBar() {
         </div>
         </div>
     </header>
+    </div>
     </>
   )
 }

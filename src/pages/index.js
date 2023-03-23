@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import ClientLayout from './components/layout-client'
+import Carousel from './components/carousel'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -15,9 +16,11 @@ export default function Home() {
         <link rel="icon" href="/100px logo.png" />
         <title>Ebiv</title>
       </Head>
-      <ClientLayout>
-
-      </ClientLayout>
+        <div className="bg-[url(https://cdn.discordapp.com/attachments/981618787491127306/1088401159821213717/bg.png)]">
+        <ClientLayout>
+        <Carousel/>
+        </ClientLayout>
+        </div>
     </>
   )
 }
