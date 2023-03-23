@@ -18,7 +18,7 @@ export default function Footer() {
         <h2 className="title-font font-medium cursor-none text-[#56005F] tracking-widest text-sm mb-3">CUSTOMER SERVICE</h2>
         <nav className="list-none mb-10">
           <li>
-            <Link href="#" className="text-[#A215A5] hover:text-[#FC77FB]">Contact Us</Link>
+            <Link href="/contact" className="text-[#A215A5] hover:text-[#FC77FB]">Contact Us</Link>
           </li>
           <li>
             <Link href="#" className="text-[#A215A5] hover:text-[#FC77FB]">Track Order</Link>

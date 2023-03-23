@@ -6,7 +6,7 @@ export default function NavBar() {
   return (
     <>
     <div className="flex justify-center">
-    <header className="bg-[url(https://cdn.discordapp.com/attachments/981618787491127306/1088401159821213717/bg.png)] bg-blend-normal bg-blur-lg mt-2 flex text-white font-algeria px-8 fixed z-20 w-11/12 rounded-full ">
+    <header className=" shadow-lg bg-[url(https://cdn.discordapp.com/attachments/981618787491127306/1088401159821213717/bg.png)] bg-blend-normal bg-blur-lg mt-2 flex text-white font-algeria px-8 fixed z-20 w-11/12 rounded-full ">
         <div className="flex justify-center items-center w-full">
         <Link href="/">
           <Image src="/logo.png" width={50} height={50}/>
