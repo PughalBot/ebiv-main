@@ -10,11 +10,6 @@ export default function Categories() {
                     <div className="text-center opacity-0 hover:opacity-100 relative z-10 w-full cursor-pointer">
                     <h2 className="text-2xl text-white font-medium title-font mb-2">SweatShirts</h2>
                     <p className="leading-relaxed text-off-white">A wide range Collection of Designer Premium Sweatshirts.</p>
-                    <a className="mt-3 text-[#A215A5] inline-flex items-center">Go to Collection
-                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                        <path d="M5 12h14M12 5l7 7-7 7"></path>
-                        </svg>
-                    </a>
                     </div>
                 </div>
                 <div className="flex flex-wrap -mx-2">
@@ -24,11 +19,6 @@ export default function Categories() {
                         <div className="text-center opacity-0 hover:opacity-100 relative z-10 w-full cursor-pointer">
                         <h2 className="text-xl text-gray-900 font-medium title-font mb-2">Oversized T-shirts</h2>
                         <p className="leading-relaxed">A wide Collection of Premium Oversized T-shirts</p>
-                        <a className="mt-3 text-[#A215A5] inline-flex items-center">Go to Collection
-                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                            <path d="M5 12h14M12 5l7 7-7 7"></path>
-                            </svg>
-                        </a>
                         </div>
                     </div>
                     </div>
@@ -38,11 +28,6 @@ export default function Categories() {
                         <div className="text-center opacity-0 hover:opacity-100 relative z-10 w-full cursor-pointer">
                         <h2 className="text-xl text-gray-900 font-medium title-font mb-2">Oversized T-shirts</h2>
                         <p className="leading-relaxed">A wide Collection of Premium Oversized T-shirts</p>
-                        <a className="mt-3 text-[#A215A5] inline-flex items-center">Go to Collection
-                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                            <path d="M5 12h14M12 5l7 7-7 7"></path>
-                            </svg>
-                        </a>
                         </div>
                     </div>
                     </div>
