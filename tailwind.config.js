@@ -10,6 +10,13 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    colors: {
+      'primary': '#A215A5',
+      'sup': '#FC77FB'
+    },
+    fontFamily: {
+      bangers: ['Bangers', 'cursive']
+    }
   },
   plugins: [],
 }
