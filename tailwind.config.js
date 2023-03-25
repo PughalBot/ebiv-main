@@ -12,7 +12,11 @@ module.exports = {
     extend: {},
     colors: {
       'primary': '#A215A5',
-      'sup': '#FC77FB'
+      'sup': '#FC77FB',
+      'white': '#FFFFFF',
+      'black': '#000000',
+      'gray': '#808080',
+      'off-white': '#F7F7F7'
     },
     fontFamily: {
       bangers: ['Bangers', 'cursive']
